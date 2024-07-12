@@ -1,4 +1,4 @@
-package com.learn.DSA;
+package com.learn.DSA.Sortings;
 
 import java.util.Arrays;
 
