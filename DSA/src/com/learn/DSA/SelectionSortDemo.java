@@ -2,7 +2,7 @@ package com.learn.DSA;
 
 import java.util.Arrays;
 
-public class SelectionSort {
+public class SelectionSortDemo{
 
 	public static void main(String[] args)
 	{

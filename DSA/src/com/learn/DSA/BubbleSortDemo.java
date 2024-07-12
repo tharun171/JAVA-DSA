@@ -2,7 +2,7 @@ package com.learn.DSA;
 
 import java.util.Arrays;
 
-public class BubbleSort {
+public class BubbleSortDemo {
 
 	public static void main(String[] args)
 	{
@@ -17,6 +17,7 @@ public class BubbleSort {
 		
 		for(int i=0;i<n.length-1;i++)
 		{
+			//coz last values will be sorted at each iteration
 			for(int j=0;j<n.length-i-1;j++)
 			{
 				//Change to < to get descending order

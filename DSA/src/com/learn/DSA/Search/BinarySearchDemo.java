@@ -6,10 +6,13 @@ import java.util.List;
 
 public class BinarySearchDemo {
 	
+	static int step = 0;
+	
 	public static int binaryFunc(int start,int stop,int target,List<Integer> list)
 	{
 		if(start<=stop)
 		{
+			step++;
 			int mid = (start+stop)/2;
 			System.out.println("mid "+mid);
 			if(list.get(mid) == target)
@@ -42,5 +45,7 @@ public class BinarySearchDemo {
 		System.out.println("target: "+target);
 		System.out.println("target found at index "+binaryFunc(0,list.size(),target,list));
 		//binaryFunc(0,list.size(),target,list);
+		
+		System.out.println(BinarySearchDemo.step);
 	}
 }
